@@ -1,3 +1,5 @@
+drop table if exists imdb_top250_movies;
+
 CREATE TABLE  imdb_top250_movies (
     Num int  ,
     Title varchar   ,
