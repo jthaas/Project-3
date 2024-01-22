@@ -1,0 +1,28 @@
+PandasGUI Filter Queries:
+
+Example 1:
+
+year >= 1990
+
+production == 'Columbia Pictures'
+
+runtime <= 108
+
+actors.str.contains('Bill Murray')
+
+Example 2:
+
+director == 'Christopher Nolan'
+
+year <= 2010
+
+title.str.contains('Batman')
+
+
+Example 3: 
+
+actors.str.contains('Leonardo DiCaprio')
+
+director != ('Martin Scorsese', 'Christopher Nolan')
+
+genre.str.contains('Biography')
