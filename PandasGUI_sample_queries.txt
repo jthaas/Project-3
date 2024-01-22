@@ -6,9 +6,11 @@ year >= 1990
 
 production == 'Columbia Pictures'
 
-runtime <= 108
+runtime <= 120
 
 actors.str.contains('Bill Murray')
+
+Expect output: 'Groundhog Day'
 
 Example 2:
 
@@ -16,7 +18,9 @@ director == 'Christopher Nolan'
 
 year <= 2010
 
-title.str.contains('Batman')
+plot.str.contains('magicians')
+
+Expected output: 'The Prestige'
 
 
 Example 3: 
@@ -26,3 +30,8 @@ actors.str.contains('Leonardo DiCaprio')
 director != ('Martin Scorsese', 'Christopher Nolan')
 
 genre.str.contains('Biography')
+
+Expected output: 'Catch Me if You Can'
+
+
+
